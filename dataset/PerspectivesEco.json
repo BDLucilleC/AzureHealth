@@ -1,0 +1,95 @@
+{
+	"name": "PerspectivesEco",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FileServerLucille",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Source"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "EO_PerspectivesEconomiques.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "LOCATION",
+				"type": "String"
+			},
+			{
+				"name": "Pays",
+				"type": "String"
+			},
+			{
+				"name": "VARIABLEEn",
+				"type": "String"
+			},
+			{
+				"name": "Variable",
+				"type": "String"
+			},
+			{
+				"name": "FREQUENCY",
+				"type": "String"
+			},
+			{
+				"name": "Fréquence",
+				"type": "String"
+			},
+			{
+				"name": "TIME",
+				"type": "String"
+			},
+			{
+				"name": "Temps",
+				"type": "String"
+			},
+			{
+				"name": "Unit Code",
+				"type": "String"
+			},
+			{
+				"name": "Unit",
+				"type": "String"
+			},
+			{
+				"name": "PowerCode Code",
+				"type": "String"
+			},
+			{
+				"name": "PowerCode",
+				"type": "String"
+			},
+			{
+				"name": "Reference Period Code",
+				"type": "String"
+			},
+			{
+				"name": "Reference Period",
+				"type": "String"
+			},
+			{
+				"name": "Value",
+				"type": "String"
+			},
+			{
+				"name": "Flag Codes",
+				"type": "String"
+			},
+			{
+				"name": "Flags",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

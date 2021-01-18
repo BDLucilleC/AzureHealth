@@ -1,0 +1,103 @@
+{
+	"name": "DettesPubliques",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FileServerLucille",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Source"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "SNA_TABLE750_DettePublique.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "LOCATION",
+				"type": "String"
+			},
+			{
+				"name": "Pays",
+				"type": "String"
+			},
+			{
+				"name": "TRANSACT",
+				"type": "String"
+			},
+			{
+				"name": "Transaction",
+				"type": "String"
+			},
+			{
+				"name": "SECTOR",
+				"type": "String"
+			},
+			{
+				"name": "Secteur",
+				"type": "String"
+			},
+			{
+				"name": "MEASURE",
+				"type": "String"
+			},
+			{
+				"name": "Mesure",
+				"type": "String"
+			},
+			{
+				"name": "TIME",
+				"type": "String"
+			},
+			{
+				"name": "Année",
+				"type": "String"
+			},
+			{
+				"name": "Unit Code",
+				"type": "String"
+			},
+			{
+				"name": "Unit",
+				"type": "String"
+			},
+			{
+				"name": "PowerCode Code",
+				"type": "String"
+			},
+			{
+				"name": "PowerCode",
+				"type": "String"
+			},
+			{
+				"name": "Reference Period Code",
+				"type": "String"
+			},
+			{
+				"name": "Reference Period",
+				"type": "String"
+			},
+			{
+				"name": "Value",
+				"type": "String"
+			},
+			{
+				"name": "Flag Codes",
+				"type": "String"
+			},
+			{
+				"name": "Flags",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

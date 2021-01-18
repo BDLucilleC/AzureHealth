@@ -1,0 +1,17 @@
+{
+	"name": "FileServerLucille",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\Users\\lcameleyse\\OneDrive - Business & Decision\\210113 - Microsoft Azure\\Datasets J4",
+			"userId": "BetD\\lcameleyse",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhOWY2NDZiMi0xNWI2LTQwZjItYTJjMS0zNjhmZWRhODU0OTQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IrLucille",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

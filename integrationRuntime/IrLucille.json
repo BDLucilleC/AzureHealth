@@ -1,0 +1,12 @@
+{
+	"name": "IrLucille",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/32ad602f-d364-45c5-ab7f-b8e199af2da0/resourcegroups/rg-BDU_EcoleDeLaData/providers/Microsoft.DataFactory/factories/formationazuredflucille/integrationruntimes/MyLocalFiles",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}
