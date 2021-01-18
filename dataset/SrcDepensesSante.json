@@ -1,5 +1,5 @@
 {
-	"name": "DepensesSante",
+	"name": "SrcDepensesSante",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "FileServerLucille",
